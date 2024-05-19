@@ -1,0 +1,144 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #292b38;
+}
+
+.bgContainer {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #292b38, #10375c);
+    position: absolute;
+}
+
+.box {
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    min-height: 450px;
+    border-radius: 30px;
+    margin: 100px auto 20px;
+    padding: 30px 20px 10px;
+}
+
+.bgContainer h1 {
+    color: #ffffff;
+    position: relative;
+}
+
+#add {
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 13px 30px;
+    position: relative;
+    left: 310px;
+    bottom: 0px;
+    color: white;
+    background-color: #5c5f70;
+}
+
+#add:hover {
+    background-color: #464853;
+}
+
+#input {
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: lightgrey;
+    position: relative;
+    top: 46px;
+    text-indent: 10px;
+    padding: 13px;
+    width: 330px;
+}
+
+.bgContainer li {
+    color: #292b38;
+    list-style: none;
+    font-size: 20px;
+    user-select: none;
+    cursor: pointer;
+    text-indent: 5px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.bgContainer li:hover {
+    font-size: 22px;
+}
+
+.delete {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    color: white;
+    background-color: #f03d4f;
+    font-size: 20px;
+    position: absolute;
+    left: 300px;
+}
+
+.delete:hover {
+    background-color: #d23242;
+}
+
+.check {
+    position: absolute;
+    left: 245px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    color: none;
+    outline: none;
+    border: solid;
+    border-width: 2px;
+    width: 50px;
+    height: 40px;
+}
+
+.check:hover {
+    border-width: 3px;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.checked .check {
+    background-color: #32d25a;
+    color: #fff;
+}
+
+.edit {
+    width: 30px;
+    height: 30px;
+    background: url("/images/edit_icon.png") no-repeat center center;
+    background-size: contain;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 370px;
+}
+
+.edit:hover {
+    width: 31px;
+    height: 31px;
+}
+
+.editText {
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
